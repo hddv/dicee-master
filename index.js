@@ -14,6 +14,10 @@ function whoWin(number1, number2){
   }
 }
 
+function displayH2(){
+  document.querySelector("h2").style.visibility = "visible";
+}
+
 //Set random value to img1
 var randomNumber1 = randomNumber();
 
@@ -25,3 +29,4 @@ var randomNumber2 = randomNumber();
 document.querySelector("img.img2").setAttribute("src", "images/dice"+randomNumber2+".png");
 
 whoWin(randomNumber1, randomNumber2);
+displayH2();
