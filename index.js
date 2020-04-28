@@ -4,3 +4,5 @@ function randomNumber(){
 
 
 var randomNumber1 = randomNumber();
+
+document.querySelector("img.img1").setAttribute("src", "images/dice"+randomNumber1+".png");
