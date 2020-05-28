@@ -1,3 +1,3 @@
 # dicee-master
 
-Play this random game => https://hdinhvu.github.io/dicee-master/
+Play this random game => https://hddv.github.io/dicee-master/
